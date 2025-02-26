@@ -1,0 +1,9 @@
+在User中更改main.js中的Api与wsApi为后端网站的网址
+在Admin中更改main.js的Api为后端网站的网址
+在Api中application.properties配置信息
+	AliOSSUtils更改配置信息
+	信息库中修改部分配置
+	Contral/User中的email改成自己配置邮箱的email
+
+
+其中对于后端数据库的Api更改，实名接口是

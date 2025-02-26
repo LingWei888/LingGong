@@ -1,0 +1,31 @@
+{
+    "list": [{
+            "id": 1,
+            "user": "王五",
+            "mail": "485412@qq.com",
+            "bzmoney": 500,
+            "roleid": "0",
+            "state": "0",
+            "addtime": "2019-11-11"
+        },
+        {
+            "id": 1,
+            "uid": "1",
+            "title": "后端开发",
+            "acid": "1,2,3",
+            "money": "5000",
+            "state": "0",
+            "addtime": "2019-11-11"
+        },
+        {
+            "id": 1,
+            "name": "保证金额500",
+            "amount": 500,
+            "orderid": "Oidsf5555",
+            "twoid": "Qyts4444",
+            "state": "0",
+            "addtime": "2019-11-11"
+        }
+    ],
+    "pageTotal": 4
+}
