@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.exitcode.day001.apicontect.mapper.OrderMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.exitcode.day001.apicontect.entity.Orders">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="amount" property="amount" />
+        <result column="orderid" property="orderid" />
+        <result column="twoid" property="twoid" />
+        <result column="addtime" property="addtime" />
+        <result column="status" property="status" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, amount, orderid, twoid, addtime, status
+    </sql>
+
+</mapper>
